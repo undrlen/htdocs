@@ -1,0 +1,215 @@
+html {
+	
+}
+
+body {
+	margin: 30px;
+	padding: 0;
+}
+
+div.title {
+	width: 920px; overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+
+div.title span {
+	display: block;
+	position: absolute;
+	right: 10px; top: 10px;
+}
+
+div.title h1 {
+	padding: 0; 
+	margin: 10px 0 40px 10px;
+}
+
+div.main {
+	padding: 10px;
+	background-color: white;
+	width: 920px;
+	margin: 0 auto;
+}
+
+div.head {
+	min-width: 920px;
+	margin-bottom: 10px;
+}
+
+div.page {
+	width: 100%;
+	overflow: hidden;
+}
+
+div.left {
+	width:240px;
+	float: left;
+}
+
+div.content {
+	margin-left: 250px;
+	padding-bottom: 40px;
+}
+
+div.left ul {
+	list-style: none;
+	margin: 0 0 -1px 0; padding: 0;
+}
+
+div.left ul li {
+	list-style: none;
+	display: block;
+}
+
+div.left ul li ul {
+	list-style:none;
+	margin: -8px 0 0 0;
+	padding: 0 0 10px 0;
+	background-color: #ef8f00;		
+}
+
+div.left ul li ul li {
+	margin: 0!important; 
+	padding: 0!important;
+	border-bottom: none;
+	zoom:1;
+}
+
+div.left ul li ul li a {
+	margin: 0 0 0 0;
+	padding: 0 0 4px 30px;
+	background-color: #ef8f00;	
+	font-weight: normal;
+}
+
+div.left ul li ul li a.act {
+	font-weight: bold;
+}
+
+div.text {
+	margin:0 20px;
+}
+
+ul.news {
+	margin:0; padding: 0;
+}
+
+ul.news li span {
+	margin:0; padding:0;
+}
+
+ul.news li {
+	margin: 0 0 25px 0;
+	padding: 0;
+}
+
+div.nav {
+	padding:20px 0 0 0;
+}
+
+div.nav p {
+	padding:0; 
+	margin: 0 0 0 0;
+}
+
+div.nav p.pages {
+	padding: 0 0 4px 0;
+}
+
+div.nav p a, div.nav p span {
+	padding-right: 10px;
+}
+
+div.nav p.pages a, div.nav p.pages strong, div.nav p.pages span {
+	padding-right: 5px!important;
+}
+div.nav p.pages strong {
+	font-weight: normal;
+}
+
+div.nav p span.act {
+	font-weight: bold;
+	color: #ef8f00;
+}
+
+div.nav p a, div.nav p a:visited {
+	color: #363636;
+}
+
+div.nav p a:hover {
+	color: #ef8f00;	
+}
+
+div.copy {
+	width:920px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px 0 10px 0;
+}
+
+div.copy p {
+	margin: 0; padding: 0;
+}
+
+
+dl.service {
+	margin: 0; padding: 0;
+}
+dl.service dt {
+	margin: 0 0 4px 0;
+	padding: 0 0 0 0;
+}
+
+dl.service dd {
+	margin:0 0 25px 0;
+	padding: 0 0 0 0;
+}
+
+
+div.line {
+	border-top:1px solid #d7d7d7;
+	margin: 30px -20px 20px -20px;
+}
+
+div.main-news ul {
+	list-style: none;
+	margin: 0; padding: 0;
+	overflow: hidden;
+}
+
+div.main-news ul li {
+	width: 45%; margin: 0 4% 0 0;
+	float: left;
+}
+
+div.main-news ul li span {
+	display: block;
+}
+
+/*Обратная связь*/
+.webform {
+	margin: 20px 0 0 0;
+}
+
+.webform div.item {margin: 0 0 10px 0; overflow:hidden; position: relative;}
+
+.webform label {
+	display:block;
+	width:110px; float:left;
+	margin: 0 10px 0 0;
+}
+.webform input.text, .webform textarea {
+		width:222px; height:20px;
+}
+.webform textarea  {height:90px;}
+
+.webform input.code {
+		position:absolute;
+		width:95px; height:20px;
+		margin: 0 0 0 5px;
+}
+
+.webform input.submit {
+		height:20px;
+		margin: 0 0 0 120px;
+}
